@@ -25,3 +25,12 @@ fieldset{
     color: black; 
     background-color: white;
 }
+
+input {
+    color: darkgreen;
+}
+
+input:focus {
+    border-color: crimson;
+    color: red; 
+}

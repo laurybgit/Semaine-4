@@ -25,3 +25,8 @@ div
 {
     display: inline-block; 
 }
+
+input:focus{
+    background-color: plum;
+    color: purple;
+}
