@@ -1,11 +1,28 @@
+/* Header */ 
+    /* Nav */ 
+
 header {
     height: 70px;
     background-color: #000000;
+    margin: 0; 
 }
 
 a
 {
     all: unset;
+    padding: 25px 25px 25px 25px; 
+}
+
+a:hover
+{
+    background-color: #444;
+    padding: 25px 25px 25px 25px; 
+}
+
+.active 
+{
+    background-color: #444; 
+    padding: 25px 25px 25px 25px; 
 }
 
 body
@@ -25,6 +42,7 @@ nav
    justify-content: space-between; 
    align-content: center;
    color: white;
+   margin: 0; 
 }
 
 nav h1
@@ -35,12 +53,12 @@ nav h1
 ul {
     list-style: none;
     display: flex;
-    margin: 5px; 
+    margin: 5px 0px 0px 5px; 
     font-size: 16px;
 }
 
-li {
-    margin: 20px;
+li{
+    margin-top: 20px; 
 }
 
 .siteHeaderButton {
@@ -50,3 +68,29 @@ li {
   .clicknot{
       cursor: not-allowed; 
   }
+    /* Fin de la nav */ 
+
+    /* DIV BACKGROUND CAFÉ*/ 
+
+div{
+    display: flex; 
+    justify-content: start;
+    }
+
+.cafeback{
+    background-image: url(https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-position: center;
+    height: 750px; 
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+  /* Fin du header */ 
