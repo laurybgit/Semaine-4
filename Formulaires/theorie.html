@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les formulaires</title>
+    <link rel="stylesheet" href="theorie.css">
+</head>
+<body>
+    <form action="">
+        <!--Nom et Prénom -->
+
+        <label for="nom">Nom</label><br>
+        <input type="text" id="nom" name="nom"><br>
+
+        <label for="prenom">Prénom</label><br>
+        <input type="text" id="prenom" name="prenom"><br><br>
+
+        <!-- Genre -->
+
+        <label for="gender">Genre</label><br><br>
+        
+        <input type="radio" id="male" name="gender" value="male">
+        </label><label for="male">Homme</label><br>
+        
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Femme</label><br>
+    
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Autre</label><br>
+        
+        <input type="radio" id="child" name="gender" value="child">
+        <label for="child">Enfant</label><br><br> 
+
+        <!-- Option -->
+  
+            <label for="voiture">Choisir une voiture</label>
+            
+            <select id="voiture" name="voiture">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+            </select><br>
+  <input type="submit"> <br><br>
+  <br>
+  <br>
+    
+    </form>
+        
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>

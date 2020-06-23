@@ -1,0 +1,27 @@
+*{
+    margin: 1.5% 0 3% 0; 
+    background-color: goldenrod; 
+}
+
+h1{
+    color: white; 
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+fieldset{
+    background-color: white;
+    border: none;
+    padding: 2%;   
+}
+
+.lab{
+    color: black; 
+    background-color: white;
+}
