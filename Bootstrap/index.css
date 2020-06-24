@@ -4,6 +4,9 @@ tout le style qui ne concerne pas le positionnement*/
 article {
     height: 50px;
     border: 1px solid black; 
+    text-align: center;
+    align-content: center;
+    padding: 12px; 
 }
 
 .red {
